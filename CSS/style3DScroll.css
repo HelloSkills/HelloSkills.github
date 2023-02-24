@@ -9,7 +9,7 @@
     --gutter: 30px; 
     --side-small: 25;
     --side-big: 25;
-    --depth: 8000px;
+    --depth: 10000px;
     --transition: .75s cubic-bezier(.075, .5, 0,1)
  
 }
@@ -68,6 +68,8 @@ h1, h2, h3, h4 {
     /* width: min-content; */
 }
 
+
+
 .frame-media {
     position: relative;
     width: calc(var(--index) * var(--side-small));
@@ -110,6 +112,7 @@ h1, h2, h3, h4 {
 
 .frame p {
     max-width: 30vw;
+    font-size: 4vh;
 }
 
 .soundbutton {
