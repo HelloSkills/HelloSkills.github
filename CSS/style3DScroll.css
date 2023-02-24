@@ -111,3 +111,17 @@ h1, h2, h3, h4 {
 .frame p {
     max-width: 30vw;
 }
+
+.soundbutton {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    cursor: pointer;
+    width: 24px;
+    transition: 0.25s ease;
+
+}
+
+.soundbutton.paused {
+    opacity: 0.25;
+}
