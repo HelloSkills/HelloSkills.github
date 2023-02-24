@@ -9,7 +9,7 @@
     --gutter: 30px; 
     --side-small: 25;
     --side-big: 25;
-    --depth: 4000px;
+    --depth: 8000px;
     --transition: .75s cubic-bezier(.075, .5, 0,1)
  
 }
