@@ -60,12 +60,14 @@ body::-webkit-scrollbar {
 h1, h2, h3, h4 {
     font-weight: 100;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h5 {
     font-weight: 100;
     font-size: calc(var(--index) * 1.5);
     max-width: 15vw;
+    text-align: center;
     /* font-size: 44px; */
 }
 
@@ -119,6 +121,7 @@ h5 {
 
 .frame p {
     max-width: 30vw;
+    text-align: center;
 }
 
 .soundbutton {
