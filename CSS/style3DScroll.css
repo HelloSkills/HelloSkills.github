@@ -19,14 +19,33 @@
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot');
-    src: url('../fonts/icomoon.eot') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf') format('truetype'),
-        url('../fonts/icomoon.woff') format('woff'),
-        url('../fonts/icomoon.svg') format('svg');
     font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
+}    
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot') format('embedded-opentype');
+    font-weight: normal;
+}  
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+}    
+ 
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.woff') format('woff');
+    font-weight: normal;
+}    
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+}    
+       
 
 [class^="icon-"],
 [class*=" icon-"] {
